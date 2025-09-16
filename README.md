@@ -19,4 +19,6 @@ Også sjekket jeg om det fungerte ved å søke localhost/ i min søkemotor
 <img width="805" height="434" alt="image" src="https://github.com/user-attachments/assets/4a4edda7-e845-4771-b625-8f77fd1ea72e" />
 
 Jeg søkte på statisk ip adressen til Rasberry Pi'en (10.200.14.22) på et annen maskin for å sjekke om jeg kunne åpne localhost nettsiden der og det fungerte.
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/dc1fc750-e203-442e-a8f6-37eefaf5df4b" />
+
 
