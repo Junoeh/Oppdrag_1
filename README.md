@@ -17,6 +17,8 @@ Jeg brukte apace for å gjøre denne oppgaven.
 
 JEg først startet en apache server på Rasberry Pi ved å gjøre disse komandoene: 
 - sudo systemctl start apache2
+
+og gjorde sånn at den starter med engang jeg skrur på rasberry pi
 - sudo systemctl enable apache2
 
 Også sjekket jeg om det fungerte ved å søke localhost/ i min søkemotor
@@ -30,7 +32,7 @@ jeg også brukte samba til å ha fildeling mellom linux og windows.
 
 Jeg lastet ned sambe ved å skrive "sudo apt install samba" i bash.
 
-Jeg lagde en mappe som het b"ruh" i min "hjem" directory ved å skrive "mkdir /home/supremekafle/bruh/". Jeg gjorde dette fordi det er den mappen som jeg skal dele med windows.
+Jeg lagde en mappe som het "bruh" i min "hjem" directory ved å skrive "mkdir /home/supremekafle/bruh/". Jeg gjorde dette fordi det er den mappen som jeg skal dele med windows.
 
 For at samba vet at jeg vil dele "bruh" mappen, måtte jeg gå inn i sudo config files ved å skrive "sudo nano /etc/samba/smb.conf" og skrive denne kodelinjen på bunnen:
 <img width="563" height="157" alt="image" src="https://github.com/user-attachments/assets/b8e9041f-774b-4048-b05f-3a67b5716bc7" />
@@ -40,6 +42,8 @@ Jeg ble ferdig med ubuntu delen, nå var det bare windows delen igjen.
 Windows delen var mye enklere enn Ubuntu fordi alt man måtte gjøre var:
 -gå inni file explorer
 -bytte filepath til \\ + ip adressen min, så det var \\10.200.14.22
+<img width="577" height="428" alt="image" src="https://github.com/user-attachments/assets/f52e696a-435d-4102-808c-4985526f639c" />
+-ferdig
 
 
 
